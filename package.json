@@ -1,8 +1,8 @@
 {
-  "name": "w12hw1",
+  "name": "todos",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/index.js",
+  "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,18 +10,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.15",
-    "webpack-dev-server": "^3.1.4"
-  },
   "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-hot-loader": "^4.3.12",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "react-hot-loader": "^4.1.2"
+    "babel-loader": "^8.0.4"
   }
 }
